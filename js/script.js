@@ -1,15 +1,5 @@
 
-// quanti chilometri deve fare l'utente
-const km_input = document.getElementById("km_input");
-console.log("La distanza da percorrere è: ", km_input.value);
 
-// quanti anni ha l'utente ?
-const age_input = document.getElementById("age_input");
-console.log("L'età del passeggero è: ", age_input.value);
-
-// costo biglietto a km 
-const tariffa = 0.21;
-costo = tariffa * km_input.value;
 
 // tasto per calcolo costo 
 const button_submit = document.getElementById("button_submit")
@@ -18,6 +8,18 @@ const button_submit = document.getElementById("button_submit")
 button_submit.addEventListener('click',
 
     function () {
+
+        // quanti chilometri deve fare l'utente
+        const km_input = document.getElementById("km_input");
+        console.log("La distanza da percorrere è: ", km_input.value);
+
+        // quanti anni ha l'utente ?
+        const age_input = document.getElementById("age_input");
+        console.log("L'età del passeggero è: ", age_input.value);
+
+        // costo biglietto a km 
+        const tariffa = 0.21;
+        costo = tariffa * km_input.value;
 
         const age = age_input.value;
 
