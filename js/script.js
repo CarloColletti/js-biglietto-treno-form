@@ -1,6 +1,4 @@
 
-
-
 // tasto per calcolo costo 
 const button_submit = document.getElementById("button_submit")
 
